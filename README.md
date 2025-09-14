@@ -52,4 +52,10 @@ L’état d’un point d’eau peut être :
 
 ###  Recommandations business
 1. Prioriser la réparation préventive des puits identifiés comme *non functional* ou *needs repair*.  
-2. Intégrer davantage de données terrain pour améliorer la détection de la classe *needs repair*.  
+2. Intégrer davantage de données terrain pour améliorer la détection de la classe *needs repair*.
+
+### Conclusion
+
+L’analyse a montré que la régression logistique offre les meilleures performances globales pour distinguer les puits fonctionnels et non fonctionnels, tout en restant robuste et généralisable. L’arbre de décision apporte une bonne interprétabilité mais souffre de surapprentissage, tandis que la random forest améliore légèrement la précision grâce à son approche ensembliste, au prix d’une complexité plus élevée.
+
+Dans le cadre de ce projet, nous retenons la régression logistique avec pondération des classes comme méthode principale, car elle combine une bonne performance globale, une relative simplicité de mise en œuvre et une interprétation claire des résultats.
